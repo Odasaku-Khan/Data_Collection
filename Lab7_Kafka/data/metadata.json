@@ -1,0 +1,12 @@
+{
+    "dataset_name": "USGS Earthquake Streaming Dataset",
+    "data_source": "USGS Earthquake API",
+    "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson",
+    "streaming_method": "Apache Kafka",
+    "kafka_topic": "earthquakes",
+    "collection_datetime_utc": "2026-11-28T03:51:26.135864+00:00",
+    "number_of_records": 100,
+    "number_of_columns": 10,
+    "storage_format": "Parquet",
+    "description": "Earthquake observations containing magnitudes, locations, depths, timestamps and review statuses."
+}

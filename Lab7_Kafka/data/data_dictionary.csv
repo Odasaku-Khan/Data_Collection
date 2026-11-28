@@ -1,0 +1,11 @@
+Column,Data Type,Description,Example Value,Missing Allowed
+id,str,Unique USGS earthquake identifier,ci41579904,No
+magnitude,float64,Earthquake magnitude,2.16,No
+place,str,Earthquake location description,"22 km SE of Bodfish, CA",No
+time_ms,int64,Event timestamp in Unix milliseconds,1795538555480,No
+status,str,Automatic or reviewed status,automatic,No
+event_type,str,Type of seismic event,earthquake,Yes
+longitude,float64,Longitude in degrees,-118.35133,No
+latitude,float64,Latitude in degrees,35.4315,No
+depth_km,float64,Earthquake depth in kilometers,2.79,No
+event_time,"datetime64[us, UTC]",Event date and time in UTC,2026-11-24 16:42:35.480000+00:00,No
